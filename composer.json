@@ -1,0 +1,40 @@
+{
+    "name": "andydune/filecache-lazy-update",
+    "description": "Return data from cache even if it expired and update it later.",
+    "license": "MIT",
+    "keywords": [
+        "php",
+        "cache",
+        "lazy update"
+    ],
+    "authors": [
+        {
+            "name": "Andrey Ryzhov",
+            "email": "info@rznw.ru"
+        }
+    ],
+    "homepage": "https://github.com/AndyDune/FileCacheLazyUpdate",
+    "autoload": {
+        "psr-4": {
+            "AndyDune\\FileCacheLazyUpdate\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.0",
+        "andydune/pipeline": "^1",
+        "symfony/cache": "^3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7.15 || ^6.0.8"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": "true"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AndyDune\\FileCacheLazyUpdateTest\\": "test/"
+        }
+    }
+}

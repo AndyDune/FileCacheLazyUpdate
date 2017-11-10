@@ -1,2 +1,2 @@
 # FileCacheLazyUpdate
-Return data from cache if it expired and undate it later.
+Return data from cache even if it expired and update it later.
